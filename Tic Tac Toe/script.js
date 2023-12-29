@@ -36,6 +36,7 @@ boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         
         if(signX == true){
+            box.style.color = "rgb(197, 64, 64)";
             box.innerText = "X";
             signX = false;
         }
